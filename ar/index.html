@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silverpoint</title>
+<meta name="description" content="Silverpoint — تطبيق لإدارة صفقات الرعاية لصنّاع المحتوى.">
+<link rel="alternate" hreflang="en" href="../">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #F6F6F3; --surface: #FFFFFF; --ink: #141517; --muted: #6B7078; --rule: #E2E3E5;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141517; --surface: #1F2023; --ink: #F2F3F5; --muted: #A9AEB6; --rule: #2C2E32; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.6 "Helvetica Neue", Helvetica, "SF Arabic", "Geeza Pro", "Noto Naskh Arabic",
+        -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+html[dir="rtl"] body { line-height: 1.8; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+nav { margin-bottom: 32px; font-size: 15px; display: flex; flex-wrap: wrap; gap: 16px; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--ink); }
+nav .lang { margin-inline-start: auto; }
+h1 { font-weight: 700; font-size: 32px; line-height: 1.25; margin: 0 0 8px; }
+h2 { font-weight: 500; font-size: 20px; margin: 36px 0 8px; }
+.muted, em { color: var(--muted); }
+ul { padding-inline-start: 22px; }
+li { margin: 6px 0; }
+a { color: var(--ink); text-underline-offset: 3px; }
+.card {
+  background: var(--surface); border-radius: 16px; padding: 20px 24px; margin: 24px 0;
+  border: 1px solid var(--rule);
+}
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../ar/">Silverpoint</a><a href="../ar/privacy/">الخصوصية</a><a href="../ar/support/">الدعم</a><a class="lang" href="../" lang="en">English</a></nav>
+<h1>Silverpoint</h1>
+<p class="muted">تطبيق لإدارة صفقات الرعاية لصنّاع المحتوى: تابع صفقاتك مع العلامات التجارية، وأرسل فواتير PDF بلمسة واحدة، واستلم أموالك أسرع.</p>
+<div class="card">
+  <p><a href="privacy/">سياسة الخصوصية</a></p>
+  <p><a href="support/">الدعم الفني</a></p>
+</div>
+
+<footer>© مشعل الحربي · Silverpoint</footer>
+</main>
+</body>
+</html>

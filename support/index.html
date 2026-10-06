@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Silverpoint Support</title>
 <meta name="description" content="Silverpoint — sponsorship CRM for independent creators.">
+<link rel="alternate" hreflang="ar" href="../ar/support/">
 <style>
 :root {
   color-scheme: light dark;
@@ -16,18 +17,20 @@
 * { box-sizing: border-box; }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
-  font: 17px/1.6 "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font: 17px/1.6 "Helvetica Neue", Helvetica, "SF Arabic", "Geeza Pro", "Noto Naskh Arabic",
+        -apple-system, BlinkMacSystemFont, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
+html[dir="rtl"] body { line-height: 1.8; }
 main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
-nav { margin-bottom: 32px; font-size: 15px; }
-nav a { color: var(--muted); text-decoration: none; margin-right: 16px; }
+nav { margin-bottom: 32px; font-size: 15px; display: flex; flex-wrap: wrap; gap: 16px; }
+nav a { color: var(--muted); text-decoration: none; }
 nav a:hover { color: var(--ink); }
-h1 { font-weight: 700; font-size: 32px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+nav .lang { margin-inline-start: auto; }
+h1 { font-weight: 700; font-size: 32px; line-height: 1.25; margin: 0 0 8px; }
 h2 { font-weight: 500; font-size: 20px; margin: 36px 0 8px; }
-p, li { color: var(--ink); }
 .muted, em { color: var(--muted); }
-ul { padding-left: 22px; }
+ul { padding-inline-start: 22px; }
 li { margin: 6px 0; }
 a { color: var(--ink); text-underline-offset: 3px; }
 .card {
@@ -39,7 +42,7 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule);
 </head>
 <body>
 <main>
-<nav><a href="../">Silverpoint</a><a href="../privacy/">Privacy</a><a href="../support/">Support</a></nav>
+<nav><a href="../">Silverpoint</a><a href="../privacy/">Privacy</a><a href="../support/">Support</a><a class="lang" href="../ar/support/" lang="ar">العربية</a></nav>
 <h1>Silverpoint Support</h1>
 <p class="muted">Sponsorship CRM for independent creators.</p>
 <div class="card">
